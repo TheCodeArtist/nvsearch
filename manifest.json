@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "NVSearch search engine",
+  "description": "Adds a search engine that searches NVSearch",
+  "version": "2.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "65.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "NVSearch",
+      "search_url": "https://nvsearch.nvidia.com/Pages/Results.aspx?k={searchTerms}",
+      "favicon_url": "https://raw.githubusercontent.com/TheCodeArtist/nvsearch/master/icons/nvidia-16x16.ico",
+      "keyword": "nv",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+}
