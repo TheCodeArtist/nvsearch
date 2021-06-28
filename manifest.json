@@ -11,7 +11,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "NVSearch",
-      "search_url": "https://nvsearch.nvidia.com/Pages/Results.aspx?k={searchTerms}",
+      "search_url": "https://nvidia.sharepoint.com/search/Pages/everythingSearchResults.aspx?k={searchTerms}",
       "favicon_url": "https://raw.githubusercontent.com/TheCodeArtist/nvsearch/master/icons/nvidia-16x16.ico",
       "keyword": "nv",
       "is_default": false,
